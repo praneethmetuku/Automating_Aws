@@ -7,4 +7,4 @@ new_bucket=s3.create_bucket(Bucket='awspythonboto3-praneeth',CreateBucketConfigu
 new_bucket
 for i in s3.buckets.all():
     print(i)
-get_ipython().run_line_magic('history', '')
+
